@@ -1,0 +1,187 @@
+*{
+    margin:0;
+    padding:0;
+    zoom: 96%;
+}
+
+/*==================================
+Header 
+==================================*/
+.header{
+    width:100%;
+    float: left;
+    border-bottom:solid 2px black;
+    margin-bottom:20px;
+}
+
+.alcohol{
+    float:left;
+    width:20%;
+    font-size: 16pt;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#alcohol{
+    margin:0;
+    font-size: 24pt;;
+}
+
+.notification_section{
+    float: left;
+    text-align: center;
+    width:60%;
+    padding-top:10px;
+}
+
+.notification{
+    background-color: lightgrey;
+    width:800px;
+    height:80px;
+    border:solid 2px black;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#notification{
+    font-size: 24pt;
+}
+
+#notification button{
+    background: white;
+    border-radius: 5px;
+    padding: 4px;
+    font-size: 16pt;
+    transition: 0.2s;
+}
+
+#notification button:hover{
+    background:grey;
+    color:white;
+    cursor: pointer;
+}
+
+.dice{
+    float:right;
+    width:20%;
+}
+
+#dice1{
+    float: left;
+}
+
+#dice2{
+    float: left;
+}
+
+#dice1 img{
+    width:100px;
+}
+
+#dice2 img{
+    width:100px;
+}
+
+#throwButton button{
+    background: white;
+    border-radius: 5px;
+    padding:20px;
+    font-size:16pt;
+    margin-top:15px;
+    transition:0.2s;
+}
+
+#throwButton button:hover{
+    background:grey;
+    color:white;
+    cursor: pointer;
+}
+
+/*==================================
+Win 
+==================================*/
+#win{
+    width: 100%;
+    float: left;
+    position: absolute;
+    height: 100%;
+	background-color: rgba(0,0,0,.7);
+    text-align:center;
+    display:none;
+}
+
+.win_text{
+	width:500px;
+	background:white;
+	border: solid 5px purple;
+	margin-left:calc(50% - 300px);
+	margin-top:200px;
+	padding:20px;
+	font-size:18pt;
+}
+
+.win_text button{
+	background:orange;
+	padding:20px;
+	color:black;
+	margin-top:40px;
+	border:0;
+	transition:0.2s;
+}
+
+/*==================================
+Gameover 
+==================================*/
+#gameover{
+    width: 100%;
+    float: left;
+    position: absolute;
+    height: 100%;
+	background-color: rgba(0,0,0,.7);
+    text-align:center;
+    display:none;
+}
+
+.gameover_text{
+	width:500px;
+	background:white;
+	border: solid 5px purple;
+	margin-left:calc(50% - 300px);
+	margin-top:200px;
+	padding:20px;
+	font-size:18pt;
+}
+
+.gameover_text button{
+	background:orange;
+	padding:20px;
+	color:black;
+	margin-top:40px;
+	border:0;
+	transition:0.2s;
+}
+
+
+/*==================================
+Board 
+==================================*/
+.board{
+    float:left;
+    width:100%;
+}
+
+#board{
+    width:1400px;
+    margin: 0 auto;
+}
+
+.field{
+    float:left;
+}
+
+.pawn{
+    width:50px;
+    position: absolute;
+    margin-top: 93px;
+    display: none;
+}
